@@ -49,7 +49,8 @@ main {
 }
 
 main section {
-	padding-bottom: 40px;
+	min-width: 300px;
+	padding-bottom: 50px;
 }
 
 main h2 {
@@ -69,4 +70,48 @@ main nav li {
 	font-size: 1.4rem;
 	font-weight: 900;
 	padding-bottom: 5px;
+}
+
+.languages {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin-top: 40px;
+	padding: 20px 0;
+	border: 5px solid black;
+	border-radius: 5px;
+	font-size: 3rem;
+}
+
+.languages i {
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 1125px) {
+	.desktop {
+		display: none;
+	}
+
+	header {
+		padding-top: 5px;
+		padding-left: 5px;
+	}
+
+	header ul {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media only screen and (max-width: 406px) {
+	main {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}
+
+@media only screen and (max-width: 358px) {
+	header {
+		grid: 100px / 1fr 1fr;
+	}
 }
