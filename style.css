@@ -9,6 +9,10 @@ i {
 	text-decoration: underline;
 }
 
+a:hover {
+	color: rgba(30, 0, 255, 0.466);
+}
+
 /* Header */
 header {
 	display: grid;
@@ -31,10 +35,6 @@ header ul {
 header a {
 	color: black;
 	font-size: 1.3rem;
-}
-
-a:hover {
-	color: rgba(30, 0, 255, 0.466);
 }
 
 /* Main */
