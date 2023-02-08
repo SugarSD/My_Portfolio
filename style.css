@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Fira+Sans&display=swap");
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+i {
+	text-decoration: underline;
+}
+
+/* Header */
+header {
+	display: grid;
+	grid: 60px / 1fr 1fr;
+	font-family: "DM Sans", sans-serif;
+	align-items: center;
+}
+
+header h1 {
+	justify-self: center;
+}
+
+header ul {
+	display: grid;
+	grid: 100% / 1fr 1fr 1fr 1fr;
+	align-items: center;
+	list-style: none;
+}
+
+header a {
+	color: black;
+	font-size: 1.3rem;
+}
+
+a:hover {
+	color: rgba(30, 0, 255, 0.466);
+}
+
+/* Main */
+
+main a {
+	color: black;
+}
+
+main {
+	font-family: "Fira Sans", sans-serif;
+	padding: 50px 100px 10px;
+}
+
+main section {
+	padding-bottom: 40px;
+}
+
+main h2 {
+	padding-bottom: 10px;
+}
+
+main p {
+	font-size: 1.2rem;
+}
+
+main nav ul {
+	list-style: none;
+	padding-top: 10px;
+}
+
+main nav li {
+	font-size: 1.4rem;
+	font-weight: 900;
+	padding-bottom: 5px;
+}
