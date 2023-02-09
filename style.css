@@ -92,6 +92,11 @@ main nav li {
 		display: none;
 	}
 
+	.mobile {
+		height: 50px;
+		width: 100%;
+	}
+
 	header {
 		padding-top: 5px;
 		padding-left: 5px;
